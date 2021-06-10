@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../ButtonElement";
 import {
   SideBarContainer,
   Icon,
@@ -11,6 +12,7 @@ import {
 } from "./SideBarElements";
 
 export const SideBar = ({ isOpen, toggle }) => {
+  
   return (
     <SideBarContainer isOpen={isOpen} onclick={toggle}>
       <Icon onClick={toggle}>
@@ -37,7 +39,7 @@ export const SideBar = ({ isOpen, toggle }) => {
           </SideBarRoute>
         </SideBtnWrap>
       </SideBarWrapper>
-    </SideBarContainer>
+      </SideBarContainer>
   );
 };
 

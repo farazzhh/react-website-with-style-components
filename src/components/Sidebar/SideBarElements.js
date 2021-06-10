@@ -21,6 +21,9 @@ top: ${({ isOpen }) => (isOpen ? '0' : '-100%') };
 
 export const CloseIcon = styled(FaTimes)`
 color:#fff;
+&:hover{
+  color:hotpink;
+}
 `
 
 export const Icon = styled.div`
@@ -62,7 +65,7 @@ color: #fff;
 cursor: pointer;
 
 &:hover {
- color:#01bf71;
+ color:hotpink;
  transition: 0.2s ease-in-out;   
 }
 `
@@ -76,7 +79,7 @@ justify-content: center;
 
 export const SideBarRoute = styled(LinkR)`
 border-radius: 50px;
-background: #01bf71;
+background: hotpink;
 white-space: nowrap;
 padding: 16px 64px;
 color: #010606;
