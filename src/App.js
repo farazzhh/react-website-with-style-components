@@ -13,8 +13,8 @@ function App() {
   };
   return (
     <Router>
+      <Navbar />
       <Switch>
-      {/* <Navbar toggle={toggle} /> */}
         {/* <Home/> */}
         <Route path='/' component={Home} exact />
         <Route path='/signin' component={SignInPage} exact/>

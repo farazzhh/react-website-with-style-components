@@ -23,7 +23,7 @@ export const homeObjTwo = {
   lightBg: true,
   lightText:false,
   lightTextDesc: false,
-  topLine: "Premium Think",
+  topLine: "Premium Discover",
   headline: "Unlimited Thinking",
   description:
     "just do fresh your thougths to be grown up strongly and be free like a bird.",
@@ -61,10 +61,10 @@ export const homeObjFour = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Premium Think",
+  topLine: "Premium SignUp",
   headline: "Unlimited Thinking",
   description:
-    "just do fresh your thougths to be grown up strongly and be free like a bird.",
+    "just do fresh your thougths to grown up strongly and be free like a bird.",
   buttonLabel: "Get Started",
   imgStart: true,
   img: "images/svg-4.svg",
