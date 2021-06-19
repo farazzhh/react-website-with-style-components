@@ -1,4 +1,4 @@
-import { FaEyeSlash } from "react-icons/fa";
+
 
 export const homeObjOne = {
     id: 'about',

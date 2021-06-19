@@ -12,9 +12,8 @@ import {
   NavBtn,
   NavBtnLinks,
 } from "./NavbarElements";
-const Navbar = ({ toggle }) => {
+const Navbar = ({toggle}) => {
   const [scrollNav, setScrollNav] = useState(false);
-  const [hover, setHover] = useState(false);
 
   const changeNav = () => {
     if (window.scrollY >= 80) {
@@ -29,12 +28,10 @@ const Navbar = ({ toggle }) => {
   }, []);
   return (
     <>
-      <IconContext.Provider value={{ color: "red" }}>
-        <Nav scrollNav={scrollNav}>
+      <IconContext.Provider value={{ color: "#fff" }}>
+        <Nav scrollnav={scrollNav}>
           <NavbarContainer>
-            <NavLogo to="/" scrollNav={scrollNav}>
-              Company
-            </NavLogo>
+            <NavLogo to="/">Company</NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
@@ -53,11 +50,9 @@ const Navbar = ({ toggle }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <div onClick={() => console.log("test")}>
-                <NavBtnLinks to="/signin" primary="true" dark="true">
-                  Sign In
-                </NavBtnLinks>
-              </div>
+              <NavBtnLinks to="/signin" primary="true" dark="true">
+                Sign In
+              </NavBtnLinks>
             </NavBtn>
           </NavbarContainer>
         </Nav>

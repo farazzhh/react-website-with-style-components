@@ -13,7 +13,7 @@ import {
 export const SideBar = ({ isOpen, toggle }) => {
   
   return (
-    <SideBarContainer isOpen={isOpen} onclick={toggle}>
+    <SideBarContainer isOpen={isOpen} >
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
@@ -38,7 +38,7 @@ export const SideBar = ({ isOpen, toggle }) => {
           </SideBarRoute>
         </SideBtnWrap>
       </SideBarWrapper>
-      </SideBarContainer>
+    </SideBarContainer>
   );
 };
 

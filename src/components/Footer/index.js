@@ -24,40 +24,40 @@ const Footer = () => {
           <FooterLinkWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink tp="/">How it Works</FooterLink>
-              <FooterLink tp="/">Testimonials</FooterLink>
-              <FooterLink tp="/">Careers</FooterLink>
-              <FooterLink tp="/">Invsetors</FooterLink>
-              <FooterLink tp="/">Terms of Service</FooterLink>
+              <FooterLink to="/">How it Works</FooterLink>
+              <FooterLink to="/">Testimonials</FooterLink>
+              <FooterLink to="/">Careers</FooterLink>
+              <FooterLink to="/">Invsetors</FooterLink>
+              <FooterLink to="/">Terms of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
-              <FooterLink tp="/">Contact</FooterLink>
-              <FooterLink tp="/">Support</FooterLink>
-              <FooterLink tp="/">Destinations</FooterLink>
-              <FooterLink tp="/">Sponsorship</FooterLink>
+              <FooterLink to="/">Contact</FooterLink>
+              <FooterLink to="/">Support</FooterLink>
+              <FooterLink to="/">Destinations</FooterLink>
+              <FooterLink to="/">Sponsorship</FooterLink>
             </FooterLinkItems>
           </FooterLinkWrapper>
           <FooterLinkWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Video</FooterLinkTitle>
-              <FooterLink tp="/">Submit Video</FooterLink>
-              <FooterLink tp="/">Ambassadors</FooterLink>
-              <FooterLink tp="/">Agency</FooterLink>
-              <FooterLink tp="/">Influencer</FooterLink>
+              <FooterLink to="/">Submit Video</FooterLink>
+              <FooterLink to="/">Ambassadors</FooterLink>
+              <FooterLink to="/">Agency</FooterLink>
+              <FooterLink to="/">Influencer</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
-              <FooterLink tp="/">Instagram</FooterLink>
-              <FooterLink tp="/">Facebook</FooterLink>
-              <FooterLink tp="/">Youtube</FooterLink>
-              <FooterLink tp="/">Twitter</FooterLink>
+              <FooterLink to="/">Instagram</FooterLink>
+              <FooterLink to="/">Facebook</FooterLink>
+              <FooterLink to="/">Youtube</FooterLink>
+              <FooterLink to="/">Twitter</FooterLink>
             </FooterLinkItems>
           </FooterLinkWrapper>
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">Company</SocialLogo>
+            <SocialLogo to="/signin">Company</SocialLogo>
             <WebSiteRights>
               Company {new Date().getFullYear()} All Rights reserved.
             </WebSiteRights>
