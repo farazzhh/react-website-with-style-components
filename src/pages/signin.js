@@ -1,12 +1,10 @@
 import React from 'react'
+import SignIn from '../Signin'
 
 const SignInPage = () => {
     return (
         <div>
-            <h1>Sign in Page</h1>
-            <h1>Sign in Page</h1>
-            <h1>Sign in Page</h1>
-            <h1>Sign in Page</h1>
+            <SignIn/>
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook,FaInstagram,FaYoutube,FaTwitter } from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
   FooterWrap,
@@ -17,6 +18,10 @@ import {
 } from "./FooterElement";
 
 const Footer = () => {
+
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
   return (
     <FooterContainer>
       <FooterWrap>
@@ -57,21 +62,39 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/signin">Company</SocialLogo>
+            <SocialLogo to="/" onClick={toggleHome}>
+              Company
+            </SocialLogo>
             <WebSiteRights>
               Company {new Date().getFullYear()} All Rights reserved.
             </WebSiteRights>
             <SocialIcons>
-              <SocialIconLink hred="//www.facebook.com" target="_blank" aria-label="Facebook">
+              <SocialIconLink
+                hred="//www.facebook.com"
+                target="_blank"
+                aria-label="Facebook"
+              >
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink hred="//www.instagram.com" target="_blank" aria-label="Instgaram">
+              <SocialIconLink
+                hred="//www.instagram.com"
+                target="_blank"
+                aria-label="Instgaram"
+              >
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink hred="//www.youtube.com" target="_blank" aria-label="Youtube">
+              <SocialIconLink
+                hred="//www.youtube.com"
+                target="_blank"
+                aria-label="Youtube"
+              >
                 <FaYoutube />
               </SocialIconLink>
-              <SocialIconLink hred="//www.twitter.com" target="_blank" aria-label="Twiiter">
+              <SocialIconLink
+                hred="//www.twitter.com"
+                target="_blank"
+                aria-label="Twiiter"
+              >
                 <FaTwitter />
               </SocialIconLink>
             </SocialIcons>
