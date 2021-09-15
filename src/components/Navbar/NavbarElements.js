@@ -69,7 +69,7 @@ margin-right:-22px;
 `
 
 export const NavItem = styled.li`
-height: 80px
+height: 80px;
 `
 
 export const NavLinks = styled(LinkS)`
@@ -108,7 +108,7 @@ export const NavBtnLinks = styled(LinkR)`
     font-size:16px;
     outline:none;
     border:none;
-    cursor:pointer:
+    cursor:pointer; 
     transition: all 0.2s ease-in-out;
     text-decoration:none;
     
@@ -116,5 +116,5 @@ export const NavBtnLinks = styled(LinkR)`
         transition: all 0.2s ease-in-out;
         background: #fff;
         color: #010606;
-    }
+    };
 `

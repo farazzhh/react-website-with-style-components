@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 100vh;
   min-height: 692px;
   position: fixed;
-  bottpm: 0;
+  bottom: 0;
   left: 0;
   right: 0;
   top: 0;
@@ -16,6 +16,7 @@ export const Container = styled.div`
     rgb(179, 49, 114) 0%,
     rgb(190, 72, 131) 100%
   );
+  
 `;
 
 export const FormWrap = styled.div`

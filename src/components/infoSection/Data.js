@@ -37,24 +37,6 @@ export const homeObjTwo = {
     dark2: true,
 };
 
-// export const homeObjThree = {
-//   id: "services",
-//   lightBg: false,
-//   lightText: true,
-//   lightTextDesc: true,
-//   topLine: "Premium Think",
-//   headline: "Unlimited Thinking",
-//   description:
-//     "just do fresh your thougths to be grown up strongly and be free like a bird.",
-//   buttonLabel: "Get Started",
-//   imgStart: false,
-//     img: "images/svg-3.svg",
-//   alt: 'signup',
-//   primary: true,
-//   darkText: false,
-//   dark: true,
-//   dark2: true,
-// };
 
 export const homeObjFour = {
   id: "signup",
